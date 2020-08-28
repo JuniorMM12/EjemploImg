@@ -1,0 +1,58 @@
+img{
+    max-width: 100%;
+}
+body{
+    font-size: 62.5%;
+}
+main{
+    width: 90%;
+    margin: 0 auto;
+}
+h2{
+    text-align: center;
+    font-size: 2rem;
+}
+.Imagenes{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.Imagenes .contenedor-img{
+    border: .1rem solid black;
+    padding: 2rem;
+}
+.Imagenes .preview{
+    border: solid .1rem black; 
+    width: 100%;
+    height: 200px;
+}
+.Imagenes .entrada-img{
+    text-align: center;
+}
+.Imagenes .entrada-img h3{
+    font-size: 1.6rem;
+    margin: 1rem;
+}
+.btn-enviar{
+    margin: 2rem 0;
+    padding: 1rem 2rem;
+    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+    border: none;
+    color: white;
+   
+}
+.mensajes-btn {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    align-content: center;
+    margin: 2rem 0 ;
+}
+.mensajes-btn .mensaje p{
+    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+    padding: 2rem;
+    color: white;
+    font-size: 1.4rem;
+    margin: 0;
+    text-align: center;
+}
